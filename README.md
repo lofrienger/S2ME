@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**S<sup>2</sup>ME: Spatial-Spectral Mutual Teaching and Ensemble Learning**
+**S<sup>2</sup>ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-supervised Polyp Segmentation**
 
 MICCAI2023 Paper-318
 
