@@ -110,7 +110,7 @@ class SUNDataset(Dataset):
 
         return frame_paths
 
-class KvasirDataset(Dataset): #/mnt/data-hdd/wa/dataset/Polyp/Kvasir-SEG
+class KvasirDataset(Dataset):
     def __init__(self, ds_root, transform=None, save='False'):
         super(KvasirDataset, self).__init__()
         self.ds_root = ds_root
@@ -136,7 +136,7 @@ class KvasirDataset(Dataset): #/mnt/data-hdd/wa/dataset/Polyp/Kvasir-SEG
     def __len__(self):
         return self.image_len
 
-class CVCDataset(Dataset): #/mnt/data-hdd/wa/dataset/Polyp/CVC-ClinicDB/PNG
+class CVCDataset(Dataset):
     def __init__(self, ds_root, transform=None, save='False'):
         super(CVCDataset, self).__init__()
         self.ds_root = ds_root
@@ -163,7 +163,7 @@ class CVCDataset(Dataset): #/mnt/data-hdd/wa/dataset/Polyp/CVC-ClinicDB/PNG
     def __len__(self):
         return self.image_len
     
-class PolypGenDataset(Dataset): #/mnt/data-hdd/wa/dataset/Polyp/PolypGen
+class PolypGenDataset(Dataset):
     def __init__(self, ds_root, transform=None, save='False'):
         super(PolypGenDataset, self).__init__()
         self.ds_root = ds_root

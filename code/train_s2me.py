@@ -22,14 +22,14 @@ from valid import test_polyp_batch
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--ds_root', type=str,
-                    default='/mnt/data-hdd/wa/dataset/Polyp/SUN_SEG/data/SUN-SEG')
+                    default='../dataset/Polyp/SUN_SEG/data/SUN-SEG', help='dataset root dir')
 parser.add_argument('--csv_root', type=str,
-                    default='/mnt/data-ssd/wa/polypseg/data/polyp')
+                    default='../data/polyp', help='data split json file dir')
 
 parser.add_argument('--model1', type=str,
-                    default='unet', help='model name')
+                    default='unet', help='model-1 name')
 parser.add_argument('--model2', type=str,
-                    default='ynet_ffc', help='model name')
+                    default='ynet_ffc', help='model-2 name')
 parser.add_argument('--num_classes', type=int, default=2,
                     help='output channel of network')
 parser.add_argument('--exp', type=str,

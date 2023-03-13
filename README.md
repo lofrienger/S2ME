@@ -8,18 +8,7 @@ MICCAI2023 Paper-318
 
 *Under Review*
 
-To our best knowledge, we propose the first spatial-spectral dual-branch network
-structure for weakly-supervised medical image segmentation that efficiently
-leverages cross-domain patterns with collaborative mutual teaching and ensemble
-learning. Our pixel-level entropy-guided fusion strategy advances the reliability
-of the aggregated pseudo labels, which provides valuable supplementary
-supervision signals. Moreover, we optimize the segmentation model with the
-hybrid mode of loss supervision from scribbles and pseudo labels in a holistic
-manner and witness improved outcomes. With extensive in-domain and out-ofdomain
-evaluation on four public datasets, our method shows superior accuracy,
-generalization, and robustness, indicating its clinical significance in alleviating
-data-related issues such as data shift and corruption which are commonly encountered
-in the medical field. 
+To our best knowledge, we propose the first spatial-spectral dual-branch network structure for weakly-supervised medical image segmentation that efficiently leverages cross-domain patterns with collaborative mutual teaching and ensemble learning. Our pixel-level entropy-guided fusion strategy advances the reliability of the aggregated pseudo labels, which provides valuable supplementary supervision signals. Moreover, we optimize the segmentation model with the hybrid mode of loss supervision from scribbles and pseudo labels in a holistic manner and witness improved outcomes. With extensive in-domain and out-ofdomain evaluation on four public datasets, our method shows superior accuracy, generalization, and robustness, indicating its clinical significance in alleviating data-related issues such as data shift and corruption which are commonly encountered in the medical field. 
 
 ![s2me](Image/s2me.png?raw=true "s2me")
 
@@ -31,7 +20,7 @@ in the medical field.
 
 ## Usage
 1. Dataset
-    - SUN-SEG: Download from [SUN-SEG](https://github.com/GewelsJI/VPS), then follow the json files in data/polyp for splits. 
+    - SUN-SEG: Download from [SUN-SEG](https://github.com/GewelsJI/VPS), then follow the json files in the folder _data/polyp_ for splits. 
     - Kvasir-SEG: Download from [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/).
     - CVC-ClinicDB: Download from [CVC-ClinicDB](https://www.kaggle.com/datasets/balraj98/cvcclinicdb).
     - PolypGen: Download from [PolypGen](https://www.synapse.org/#!Synapse:syn26376615/wiki/613312).
@@ -49,8 +38,11 @@ in the medical field.
     - *cps*: Apply **Ensemble Learning** or not;
     - Refer to [train_s2me.py](code/train_s2me.py) for more explanation on other hyperparameters.
 
+- Trained model and training log
+    - One trained model which yields our best result on the SUN-SEG dataset is available in the folder *model*.
 
-3. Test Result
+
+1. Test Result
 
     - In-domain quantitative performance
     <div align=center>
@@ -59,29 +51,29 @@ in the medical field.
 
     - In-domain qualitative performance
     <div align=center>
-    <img src=Image/Fig2.png width=500 height=150>
+    <img src=Image/Fig2.png width=500 height=140>
     <div align=left>
 
     - Generalization performance
     <div align=center>
-    <img src=Image/TableGen1.png width=450 height=200>
+    <img src=Image/TableGen1.png width=450 height=190>
     <div align=left>
 
     <div align=center>
-    <img src=Image/TableGen2.png width=450 height=200>
+    <img src=Image/TableGen2.png width=450 height=190>
     <div align=left>
 
     <div align=center>
-    <img src=Image/TableGen3.png width=450 height=200>
+    <img src=Image/TableGen3.png width=450 height=190>
     <div align=left>
 
     - Ablation Studies
     <div align=center>
-    <img src=Image/Table3.png width=550 height=130>
+    <img src=Image/Table3.png width=550 height=110>
     <div align=left>
 
     <div align=center>
-    <img src=Image/Table45.png width=550 height=160>
+    <img src=Image/Table45.png width=550 height=140>
     <div align=left>
 
 ## Acknowledgement
