@@ -391,4 +391,4 @@ dependencies:
       - urllib3==1.26.14
       - wheel==0.38.4
       - yacs==0.1.8
-prefix: /home/ren4/miniconda3/envs/s2me
+prefix: /home/xxx/miniconda3/envs/s2me
