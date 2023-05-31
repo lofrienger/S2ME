@@ -4,9 +4,11 @@
 
 **S<sup>2</sup>ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-supervised Polyp Segmentation**
 
-MICCAI2023 Paper-318
+An Wang, Mengya Xu, Yang Zhang, Mobarakol Islam, and Hongliang Ren
 
-*Under Review*
+Medical Image Computing and Computer-Assisted Intervention (MICCAI) - 2023 
+
+*Early Accepted (Top 14% of 2253 manuscripts)*
 
 To our best knowledge, we propose the first spatial-spectral dual-branch network structure for weakly-supervised medical image segmentation that efficiently leverages cross-domain patterns with collaborative mutual teaching and ensemble learning. Our pixel-level entropy-guided fusion strategy advances the reliability of the aggregated pseudo labels, which provides valuable supplementary supervision signals. Moreover, we optimize the segmentation model with the hybrid mode of loss supervision from scribbles and pseudo labels in a holistic manner and witness improved outcomes. With extensive in-domain and out-ofdomain evaluation on four public datasets, our method shows superior accuracy, generalization, and robustness, indicating its clinical significance in alleviating data-related issues such as data shift and corruption which are commonly encountered in the medical field. 
 
