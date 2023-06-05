@@ -4,6 +4,8 @@
 
 **S<sup>2</sup>ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-supervised Polyp Segmentation**
 
+[arXiv](https://arxiv.org/abs/2306.00451) 
+
 An Wang, Mengya Xu, Yang Zhang, Mobarakol Islam, and Hongliang Ren
 
 Medical Image Computing and Computer-Assisted Intervention (MICCAI) - 2023 
