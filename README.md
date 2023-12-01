@@ -4,7 +4,7 @@
 
 **S<sup>2</sup>ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-supervised Polyp Segmentation**
 
-[arXiv](https://arxiv.org/abs/2306.00451) 
+PDF: [arXiv](https://arxiv.org/abs/2306.00451) [Springer](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_4)
 
 An Wang, Mengya Xu, Yang Zhang, Mobarakol Islam, and Hongliang Ren
 
@@ -79,6 +79,25 @@ To our best knowledge, we propose the first spatial-spectral dual-branch network
     <div align=center>
     <img src=Image/Table45.png width=550 height=140>
     <div align=left>
+
+
+## Citation
+```
+@InProceedings{Wang2023s2me,
+author="Wang, An
+and Xu, Mengya
+and Zhang, Yang
+and Islam, Mobarakol
+and Ren, Hongliang",
+title="S{\$}{\$}^2{\$}{\$}ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-Supervised Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="35--45",
+}
+
+```
 
 ## Acknowledgement
 Some of the codes are borrowed/refer from below repositories:
